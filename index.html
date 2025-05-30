@@ -20,7 +20,7 @@
   <script>
     function generate() {
       const macRaw = document.getElementById("macInput").value;
-      fetch("https://password-api-xxxx.onrender.com/api/generate", {
+      fetch("https://ogpassmaketool.onrender.com/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mac: macRaw })
